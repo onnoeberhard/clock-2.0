@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">clock 2.0</string>
+    <string name="clock">Uhr</string>
+    <string name="timer">Timer (experimentell)</string>
+    
+    <string name="app">App</string>
+    <string name="Light_Theme">Helles Thema</string>
+    <string name="widget">Widget</string>
+    <string name="new_aw">Neues Widget Design</string>
+    
+    <string name="almost">fast</string>
+    <string name="around">ungefähr</string>
+    <string name="shortly">kurz</string>
+    <string name="five">fünf</string>
+    <string name="ten">zehn</string>
+    <string name="quarter">viertel</string>
+    <string name="twenty">zwanzig</string>
+    <string name="half">halb</string>
+    <string name="to">vor</string>
+    <string name="past">nach</string>
+    <string name="before">vor</string>
+    <string name="after">nach</string>
+    <string name="one">eins</string>
+    <string name="two">zwei</string>
+    <string name="three">drei</string>
+    <string name="four">vier</string>
+<!--     <string name="five">fünf</string> -->
+    <string name="six">sechs</string>
+    <string name="seven">sieben</string>
+    <string name="eight">acht</string>
+    <string name="nine">neun</string>
+<!--     <string name="ten">zehn</string> -->
+    <string name="eleven">elf</string>
+    <string name="twelve">zwölf</string>
+    <string name="oclock">Uhr</string>
+    <string name="am">Vormittags</string>
+    <string name="pm">Nachmittags</string>
+    
+    <string-array name="mainDialog">
+        <item>@string/clock</item>
+        <item>@string/timer</item>
+        <item>Einstellungen</item>
+    </string-array>
+
+</resources>

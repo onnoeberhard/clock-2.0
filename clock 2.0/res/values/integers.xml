@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="row1">26</integer>
+    <integer name="row2">23</integer>
+    <integer name="row3">22</integer>
+    <integer name="row4">21</integer>
+    <integer name="row5">26</integer>
+    <integer name="row6">4</integer>
+    <integer name="row1p">12</integer>
+    <integer name="row2p">14</integer>
+    <integer name="row3p">13</integer>
+    <integer name="row4p">10</integer>
+    <integer name="row5p">11</integer>
+    <integer name="row6p">11</integer>
+    <integer name="row7p">9</integer>
+    <integer name="row8p">13</integer>
+    <integer name="row9p">7</integer>
+    <integer name="row10p">19</integer>
+    <integer name="row11p">4</integer>
+    <integer name="maxThisHourMin">34</integer>
+</resources>

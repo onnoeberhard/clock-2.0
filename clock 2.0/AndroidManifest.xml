@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="clock.two.oh"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="1"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/theme" >
+        <activity
+            android:name="clock.two.oh.Clock"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.DESK_DOCK" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="clock.two.oh.Settings"
+            android:label="@string/app_name" >
+        </activity>
+        <service
+            android:name="clock.two.oh.TimerService" />
+        <receiver 
+            android:name="clock.two.oh.TimerBroadcast">
+        </receiver>
+        <receiver android:name="clock.two.oh.AppWidget" android:exported="false">
+    		<intent-filter>
+    		    <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+   			</intent-filter>
+    		<meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget"/>
+		</receiver>
+		
+        <activity android:name="clock.two.oh.ToolTip" android:theme="@android:style/Theme.Dialog"/>
+    </application>
+
+</manifest>
